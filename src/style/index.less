@@ -31,12 +31,14 @@ body{
         position: relative;
 
         // 蛇样式
-        #snack{
-            width: 10px;
-            height: 10px;
-            background-color: #000;
-            border: 1px solid @bg-color;
-            position: absolute;
+        #snake{
+            &>div{
+                width: 10px;
+                height: 10px;
+                background-color: #000;
+                border: 1px solid @bg-color;
+                position: absolute;
+            }
         }
 
         #food{
